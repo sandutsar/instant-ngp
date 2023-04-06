@@ -22,9 +22,8 @@
 NGP_NAMESPACE_BEGIN
 
 struct Raystab {
-	struct Params
-	{
-		const Eigen::Vector3f* ray_origins;
+	struct Params {
+		const vec3* ray_origins;
 		float* distances;
 		OptixTraversableHandle handle;
 	};
