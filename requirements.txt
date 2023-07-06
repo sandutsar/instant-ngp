@@ -5,5 +5,5 @@ numpy==1.21.2
 Pillow==8.3.2
 pybind11==2.7.1
 PyEXR==0.3.10
-scipy==1.7.1
+scipy==1.10.0
 tqdm==4.62.2
